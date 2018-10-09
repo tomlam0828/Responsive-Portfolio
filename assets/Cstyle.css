@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+ 
+  }
+
+#wholepart {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/wheat.png");
+    position: relative;
+    top: -40px;
+    height: 779px;
+    width: 100%;
+  }
+
+header {
+    background: #4aaaa5;
+    width: 170px;
+    height: 80px;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 17px;
+    position: relative;
+    left: 14%;
+}
+
+#threesection {
+    width: 100%;
+    height: 50px;
+    clear: both;
+    text-align: right;
+    font-size: 10px;
+    font-size: 20px;
+    position: relative;
+    top: -43px;
+    right: 12.6%;
+}
+
+#aboutme {
+    width: 960px;
+    height: 500px;
+    background: #ffffff;
+    position: relative;
+    left: 19%;
+    top: 120px;
+}
+
+h2 {
+    color: #4aaaa5;
+    position: relative;
+    left: 2%;
+}
+
+#greenbox {
+    color: #4aaaa5;
+    width: 100%;
+    height: 10px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 279px;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 20px;
+    height: 70px;
+    border-top: #4aaaa5 solid 8px;
+}
+
+#cpr {
+    position: relative;
+    top: 36px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+  }
+
+h2 {
+    color: #4aaaa5;
+}
+  
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
