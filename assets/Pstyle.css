@@ -36,20 +36,19 @@ header {
 }
 
 #aboutme {
-    width: 960px;
-    height: 651px;
+    width: 80%;
     background: #ffffff;
     position: relative;
-    left: 19%;
     top: 120px;
+    margin: 0 auto;
 }
-
 
 h2 {
     color: #4aaaa5;
     position: relative;
     left: 2%;
 }
+
 
 #firstsection {
     color: #cccccc;
@@ -113,6 +112,18 @@ img {
     margin-left: 10px;
 }
 
+.imgandbuttontwo {
+    float: right;
+}
+
+.imgandbuttonfour {
+    float: right;
+}
+
+#container {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1024px) {
     #wholepart {
         background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/wheat.png");
@@ -147,10 +158,8 @@ img {
     
     #aboutme {
         width: 70%;
-        height: 1100px;
         background: #ffffff;
         position: relative;
-        left: 19%;
         top: 120px;
     }
     

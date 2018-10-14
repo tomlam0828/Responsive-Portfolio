@@ -9,8 +9,7 @@
     position: relative;
     top: -40px;
     height: 779px;
-    width: 100%;
-  }
+}
 
 header {
     background: #4aaaa5;
@@ -37,12 +36,13 @@ header {
 }
 
 #aboutme {
-    width: 960px;
-    height: 500px;
-    background: #ffffff;
-    position: relative;
-    left: 19%;
-    top: 120px;
+  
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: 120px;
+        background-color: white;
+    
 }
 
 h2 {
@@ -57,17 +57,7 @@ h2 {
     height: 10px;
 }
 
-footer {
-    text-align: center;
-    position: relative;
-    top: 279px;
-    width: 100%;
-    background-color: #666666;
-    color: #ffffff;
-    font-size: 20px;
-    height: 70px;
-    border-top: #4aaaa5 solid 8px;
-}
+
 
 #cpr {
     position: relative;
@@ -96,6 +86,18 @@ h2 {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 20px;
+    height: 70px;
+    border-top: #4aaaa5 solid 8px;
 }
 
 
@@ -134,11 +136,8 @@ h2 {
     }
     
     #aboutme {
-        width: 70%;
-        height: 500px;
         background: #ffffff;
         position: relative;
-        left: 19%;
         top: 120px;
     }
     
@@ -157,7 +156,6 @@ h2 {
     footer {
         text-align: center;
         position: relative;
-        top: 279px;
         width: 100%;
         background-color: #666666;
         color: #ffffff;
